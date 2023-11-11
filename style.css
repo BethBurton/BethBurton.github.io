@@ -1,0 +1,264 @@
+/* RESET RULE* */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.site-heading{
+    background-color: #264653;
+    color: #E9C46A;
+    text-align:center;
+}
+
+.site-heading nav{
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px solid;
+    padding: 20px;
+    
+}
+
+.site-heading a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: inherit;
+    font-size: 1.8rem;
+}
+
+.site-heading h1{
+font-family: 'Patrick Hand', cursive;
+font-size: 5rem;
+}
+
+.background-image{
+    background-image: url(assets/program.png) ;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.2;
+    background-blend-mode: lighten;
+    background-position: center;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
+}
+
+.content{
+    margin: 0 6%;
+}
+
+.week1-heading{
+    font-family:'Patrick Hand', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+.gettingready{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gettingready div p{
+    background-color: rgba(244, 162, 97,.4);
+    text-align: center;
+    padding: 4px;
+    border:#264653 3px solid;
+    border-radius: 20px;
+    width: 75%;
+    font-family:'Patrick Hand', cursive;
+    font-size: 20px;
+    margin:auto;
+}
+
+.gettingready div img{
+    width: 100%;
+    border: white solid 10px;
+    border-radius: 20px;
+}
+
+.week1lists{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.week1lists div img{
+    width: 100%;
+    border: 10px white solid;
+    border-radius: 20px;
+}
+
+.list1{
+    list-style-position: inside;
+    margin-left: 15px;
+    background-color: rgba(244, 162, 97,.4);
+    text-align: center;
+    padding: 4px;
+    border: #264653 3px solid;
+    border-radius:20px;
+    width:50%;
+    font-family:'Patrick Hand', cursive;
+    font-size:20px;
+}
+
+.week1{
+    font-size: larger;
+    text-align: center;
+    font-family:'Patrick Hand', cursive;
+}
+
+.week2{
+    border-top:#264653 5px solid;
+    margin-top: 10px;
+}
+
+.week2grid{
+    display:grid;
+    grid-template-columns: 4;
+    grid-template-rows: 2;
+    gap: 3px;
+    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.week2list{
+    grid-area: 1/1/2/2;
+    font-family:'Patrick Hand', cursive;
+    background-color: rgba(38, 70, 83, .3);
+    list-style-position: inside;
+    margin-left:15px;
+    padding: 30px;
+    border: white 10px solid;
+}
+
+.week2img{
+    grid-area:1/4/3/5;
+    border: white 10px solid;
+}
+
+.week2p1{
+    grid-area: 1/2/2/4;
+    font-family:'Patrick Hand', cursive;
+    background-color: rgba(38, 70, 83, .3);
+    padding: 30px;
+    border: white 10px solid;
+}
+
+.week2p2{
+    grid-area: 2/1/3/4;
+    font-family:'Patrick Hand', cursive;
+    background-color: rgba(38, 70, 83, .3);
+    padding: 30px;
+    border: white 10px solid;
+}
+
+.week2classwork{
+    background-color: rgba(38, 70, 83, .3);
+    list-style: inside;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    border:#F4A261 2px solid;
+    border-radius: 20px;
+    margin: 10px;
+    padding:5px 5px 5px 20px;
+}
+
+.classworklists div{
+    padding: 5px;
+}
+
+.classworklists{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.boxmodelw3{
+    width: 50%;
+    font-size: 0px;
+}
+
+.centerw3{
+    width:50% ;
+    margin:auto;
+}
+
+.boxmodelw3 div p{
+    height: 150px;
+    border: white 10px solid;
+    display: inline-block;
+    }
+
+.light-pink p{ 
+    background-color: #F5C6D6;
+    width:100%;
+}
+
+.hot-pink p{
+    background-color: #EE2E84;    
+    width: 25%;
+    }
+
+.blue p{
+    background-color: #85CFD8;   
+    width: 50%;
+    }
+
+.green{
+    background-color: #8DC63F;    
+    width: 75%;
+}
+
+.orange{
+    background-color: #E76E34;    
+    width:25%;
+}
+
+.week3{
+    margin-left: 15px;
+    background-color: rgba(244, 162, 97,.4);
+    text-align: center;
+    padding: 4px;
+    border: #264653 3px solid;
+    border-radius:20px;
+    font-family:'Patrick Hand', cursive;
+    font-size:20px;
+}
+
+.week3gs {
+    background-color: rgba(244, 162, 97, .4);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    border:#264653 3px solid;
+    border-radius: 20px;
+    margin: 10px;
+    padding:5px 5px 5px 20px;
+}
+
+.w4list{
+    border:#F4A261 solid 3px;
+    list-style: inside;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(38, 70, 83, .3);
+}
+
+.week4roadmapimg2{
+    border:#F4A261 solid 3px;
+    border-radius: 50px;
+    width: 50%;
+}
+
+.week4gs{
+    background-color: rgba(38, 70, 83, .3);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    border:#F4A261 2px solid;
+    border-radius: 20px;
+    margin: 10px;
+    padding:5px 5px 5px 20px;
+}

@@ -44,6 +44,15 @@ font-size: 5rem;
     height:500px;
 }
 
+footer{
+    background-color: #264653;
+    color: #E9C46A;
+    text-align:center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    padding: 10px;
+}
+
 .content{
     margin: 0 6%;
 }
@@ -241,16 +250,25 @@ font-size: 5rem;
 
 .w4list{
     border:#F4A261 solid 3px;
+    border-radius: 20px;
     list-style: inside;
     margin: 15px;
     padding: 15px;
     background-color: rgba(38, 70, 83, .3);
+    width: 200%;
+}
+
+.week4roadmap{
+    display: flex;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+
 }
 
 .week4roadmapimg2{
     border:#F4A261 solid 3px;
     border-radius: 50px;
-    width: 50%;
+    width: 75%;
 }
 
 .week4gs{
